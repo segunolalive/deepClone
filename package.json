@@ -1,0 +1,17 @@
+{
+  "name": "deep-clone",
+  "version": "1.0.0",
+  "description": "A zero-dependency utility for deeply copying javascript objects",
+  "main": "deepClone.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "clone",
+    "copy",
+    "deep",
+    "immutable"
+  ],
+  "author": "Segun Ola",
+  "license": "ISC"
+}
