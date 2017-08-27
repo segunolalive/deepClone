@@ -3,7 +3,7 @@
 A nifty zero-dependency utility for deeply cloning javascript objects and arrays.
 
 **NOTE**:   
-Only enumerable properties are cloned. Object.prototypes are not cloned.
+Only enumerable properties are cloned. Object.prototypes are not cloned. If used with other data types, it simply returns the arguement passed.
 
 
 ## Why?
@@ -44,6 +44,10 @@ This is what deepClone helps to solve.
     let b = deepClone(a);
     a.c.f.g = 500
     b.c.f.g = 1 // unaffected by change in a's child object's values
+This is particularly useful when mutation is not an option e.g in a Redux application.
 
 ## How To Use
-require deepClone and use as in the example above.
+    npm install --save deepclonejs
+
+    const deepClone = require('deepclonejs');
+then use as in the example above.
