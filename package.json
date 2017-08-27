@@ -1,6 +1,6 @@
 {
   "name": "deepclonejs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A zero-dependency utility for deeply copying javascript objects",
   "main": "deepClone.js",
   "scripts": {
