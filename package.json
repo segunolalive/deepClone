@@ -1,6 +1,6 @@
 {
   "name": "deepclonejs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A zero-dependency utility for deeply copying javascript objects",
   "main": "deepClone.js",
   "scripts": {
@@ -12,9 +12,9 @@
     "deep",
     "immutable"
   ],
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/segunolalive/deepClone"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/segunolalive/deepClone"
   },
   "maintainers": [
     {
