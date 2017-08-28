@@ -12,6 +12,16 @@
     "deep",
     "immutable"
   ],
+  "repository" :
+  { "type" : "git",
+   "url" : "https://github.com/segunolalive/deepClone"
+  },
+  "maintainers": [
+    {
+      "name": "Segun Ola",
+      "email": "segunolalive@gmail.com"
+    },
+  ],
   "author": "Segun Ola",
   "license": "MIT"
 }

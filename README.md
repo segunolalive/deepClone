@@ -3,7 +3,7 @@
 A nifty zero-dependency utility for deeply cloning javascript objects and arrays.
 
 **NOTE**:   
-Only enumerable properties are cloned. Object.prototypes are not cloned. If used with other data types, it simply returns the arguement passed.
+Only enumerable properties are cloned. Non-enumerable  properties and Prototype chains are not cloned. If used with other data types, it simply returns the arguement passed.
 
 
 ## Why?
