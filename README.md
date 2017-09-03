@@ -24,7 +24,7 @@ With `Object.assign`, we can get around this but it only takes us so far since i
     console.log(b) // { a: 1, b: 3, c: { d: 44 } }
 This is what deepClone helps to solve.
 
-    const deepClone = require('deepClone');
+    const deepClone = require('deepClonejs');
 
     let a = let a = {
         a: 1,
